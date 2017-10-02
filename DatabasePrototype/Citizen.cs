@@ -14,5 +14,9 @@ namespace DatabasePrototype {
         public string WorkPlace { get; set; }
         public int XHome { get; set; }
         public int YHome { get; set; }
+
+        public override string ToString() {
+            return FName + " " + LName;
+        }
     }
 }
