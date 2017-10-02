@@ -32,9 +32,9 @@ namespace DatabasePrototype {
             var fNameTemp = textBoxCreateNewFirstName.Text.ToString();
             var lNameTemp = textBoxCreateNewLastName.Text.ToString();
             var workTemp = textBoxCreateNewWorkPlace.Text.ToString();
-            var ageText = textBoxChangeAge.Text.ToString();
-            var xCordText = textBoxChangeXCord.Text.ToString();
-            var yCordText = textBoxChangeYCord.Text.ToString();
+            var ageText = textBoxCreateNewAge.Text.ToString();
+            var xCordText = textBoxCreateNewXCord.Text.ToString();
+            var yCordText = textBoxCreateNewYCord.Text.ToString();
             int xTemp;
             int yTemp;
             int ageTemp;
